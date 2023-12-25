@@ -1,0 +1,697 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Restro.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Restro.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\Img\\about-1.jpg",
+      "PackagePath": "staticwebassets\\Img\\about-1.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\Img\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\Img\\blog-1.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\Img\\dish-1.png",
+      "PackagePath": "staticwebassets\\Img\\dish-1.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\Img\\dish-10.png",
+      "PackagePath": "staticwebassets\\Img\\dish-10.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\css\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\css\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\fonts\\JosefinSans-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\JosefinSans-Regular.ttf"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\fonts\\Lexend-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Lexend-Regular.ttf"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\fonts\\MarckScript-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\MarckScript-Regular.ttf"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\fonts\\OpenSans_Condensed-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\OpenSans_Condensed-Medium.ttf"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\fonts\\Spectral-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Spectral-Light.ttf"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\fonts\\Yu Gothic UI - Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Yu Gothic UI - Regular.ttf"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\fonts\\geometria-medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\geometria-medium.ttf"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\1.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\11 (2).png",
+      "PackagePath": "staticwebassets\\images\\11 (2).png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\2.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\24h.png",
+      "PackagePath": "staticwebassets\\images\\24h.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\3.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\about-1.jpg",
+      "PackagePath": "staticwebassets\\images\\about-1.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\about-2.jpg",
+      "PackagePath": "staticwebassets\\images\\about-2.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\about-3.jpg",
+      "PackagePath": "staticwebassets\\images\\about-3.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\about-4.jpg",
+      "PackagePath": "staticwebassets\\images\\about-4.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\about-img.jpg",
+      "PackagePath": "staticwebassets\\images\\about-img.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\about.jpg",
+      "PackagePath": "staticwebassets\\images\\about.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\about.png",
+      "PackagePath": "staticwebassets\\images\\about.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\alex-haney-CAhjZmVk5H4-unsplash.jpg",
+      "PackagePath": "staticwebassets\\images\\alex-haney-CAhjZmVk5H4-unsplash.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\all-dishes.png",
+      "PackagePath": "staticwebassets\\images\\all-dishes.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-1.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-2.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-3.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-4.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-5.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-6.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\burger.png",
+      "PackagePath": "staticwebassets\\images\\burger.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\chef-1.png",
+      "PackagePath": "staticwebassets\\images\\chef-1.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\chef-2.png",
+      "PackagePath": "staticwebassets\\images\\chef-2.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\chef-3.png",
+      "PackagePath": "staticwebassets\\images\\chef-3.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\chicken.png",
+      "PackagePath": "staticwebassets\\images\\chicken.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\delivery.png",
+      "PackagePath": "staticwebassets\\images\\delivery.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\discover-7.png",
+      "PackagePath": "staticwebassets\\images\\discover-7.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\dish-1.png",
+      "PackagePath": "staticwebassets\\images\\dish-1.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\dish-10.png",
+      "PackagePath": "staticwebassets\\images\\dish-10.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\dish-11.png",
+      "PackagePath": "staticwebassets\\images\\dish-11.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\dish-12.png",
+      "PackagePath": "staticwebassets\\images\\dish-12.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\dish-13.png",
+      "PackagePath": "staticwebassets\\images\\dish-13.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\dish-14.png",
+      "PackagePath": "staticwebassets\\images\\dish-14.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\dish-15.png",
+      "PackagePath": "staticwebassets\\images\\dish-15.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\dish-16.png",
+      "PackagePath": "staticwebassets\\images\\dish-16.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\dish-2.png",
+      "PackagePath": "staticwebassets\\images\\dish-2.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\dish-3.png",
+      "PackagePath": "staticwebassets\\images\\dish-3.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\dish-4.png",
+      "PackagePath": "staticwebassets\\images\\dish-4.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\dish-5.png",
+      "PackagePath": "staticwebassets\\images\\dish-5.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\dish-6.png",
+      "PackagePath": "staticwebassets\\images\\dish-6.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\dish-7.png",
+      "PackagePath": "staticwebassets\\images\\dish-7.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\dish-8.png",
+      "PackagePath": "staticwebassets\\images\\dish-8.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\dish-9 (3).png",
+      "PackagePath": "staticwebassets\\images\\dish-9 (3).png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\dish-9.png",
+      "PackagePath": "staticwebassets\\images\\dish-9.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\dishes.png",
+      "PackagePath": "staticwebassets\\images\\dishes.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\event-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\event-bg.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\footer-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\footer-bg.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\form.jpg",
+      "PackagePath": "staticwebassets\\images\\form.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\fresh.png",
+      "PackagePath": "staticwebassets\\images\\fresh.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\home-img.png",
+      "PackagePath": "staticwebassets\\images\\home-img.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\meze-1.png",
+      "PackagePath": "staticwebassets\\images\\meze-1.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\meze-2.png",
+      "PackagePath": "staticwebassets\\images\\meze-2.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\meze-3.png",
+      "PackagePath": "staticwebassets\\images\\meze-3.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\meze-4.png",
+      "PackagePath": "staticwebassets\\images\\meze-4.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\meze-5.png",
+      "PackagePath": "staticwebassets\\images\\meze-5.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\meze-6.png",
+      "PackagePath": "staticwebassets\\images\\meze-6.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\meze-7.png",
+      "PackagePath": "staticwebassets\\images\\meze-7.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\meze-8.png",
+      "PackagePath": "staticwebassets\\images\\meze-8.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\meze-9.png",
+      "PackagePath": "staticwebassets\\images\\meze-9.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\order.jpg",
+      "PackagePath": "staticwebassets\\images\\order.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\pasta.png",
+      "PackagePath": "staticwebassets\\images\\pasta.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\payment (3).png",
+      "PackagePath": "staticwebassets\\images\\payment (3).png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\payment.png",
+      "PackagePath": "staticwebassets\\images\\payment.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\person.jpg",
+      "PackagePath": "staticwebassets\\images\\person.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\pexels-ljupco-dzambazovski-1346132.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-ljupco-dzambazovski-1346132.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\pexels-pixabay-260922.jpg",
+      "PackagePath": "staticwebassets\\images\\pexels-pixabay-260922.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\pizza (1).png",
+      "PackagePath": "staticwebassets\\images\\pizza (1).png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\pizza.png",
+      "PackagePath": "staticwebassets\\images\\pizza.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\servbg-1.jpg",
+      "PackagePath": "staticwebassets\\images\\servbg-1.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\servbg-2.jpg",
+      "PackagePath": "staticwebassets\\images\\servbg-2.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\servimg-1.png",
+      "PackagePath": "staticwebassets\\images\\servimg-1.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\servimg-2.png",
+      "PackagePath": "staticwebassets\\images\\servimg-2.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\signature.png",
+      "PackagePath": "staticwebassets\\images\\signature.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\sine.png",
+      "PackagePath": "staticwebassets\\images\\sine.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\tab-icon.png",
+      "PackagePath": "staticwebassets\\images\\tab-icon.png"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\images\\testimonial-1.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\images\\testimonial-2.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\images\\testimonial-3.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\images\\testimonial-4.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\testimonial-5.jpg",
+      "PackagePath": "staticwebassets\\images\\testimonial-5.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\images\\testimonial-6.jpg",
+      "PackagePath": "staticwebassets\\images\\testimonial-6.jpg"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\js\\admin\\adminProp.js",
+      "PackagePath": "staticwebassets\\js\\admin\\adminProp.js"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\js\\cart\\cartScripts.js",
+      "PackagePath": "staticwebassets\\js\\cart\\cartScripts.js"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\js\\scrollreveal.js",
+      "PackagePath": "staticwebassets\\js\\scrollreveal.js"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\js\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "F:\\Collage\\Third\\Internet Programming\\Sections\\RestroProject\\Restro\\Restro\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Restro.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Restro.props",
+      "PackagePath": "build\\Restro.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Restro.props",
+      "PackagePath": "buildMultiTargeting\\Restro.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Restro.props",
+      "PackagePath": "buildTransitive\\Restro.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

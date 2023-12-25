@@ -1,0 +1,332 @@
+﻿@model List<Meal>
+<!-- Start Menu -->
+<style>
+    .admin-options{
+        display: flex;
+        justify-content: space-between;
+    }
+    .delete{
+        background-color: #fe8d00;
+        color: white;
+        padding: 8px;
+        transition: .3s;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .delete:hover{
+        background-color: rgba(255,0, 0, .7);
+    }
+    .delete a {
+        color: white !important;
+    }
+    .prices{
+        display: flex;
+        justify-content: space-between;
+    }
+
+</style>
+<section class="menu" id="menu">
+    <h1>Our <span>Popular</span> Dishes<span>.</span></h1>
+    <div class="list">
+        <div class="list-items active" data-filter=".all">
+            <img src="~/images/all-dishes.png" alt="">
+            <div class="item-info">
+                <p>All Menu</p>
+                <span>150 item</span>
+            </div>
+        </div>
+        <div class="list-items" data-filter=".burger">
+            <img src="~/images/burger.png" alt="">
+            <div class="item-info">
+                <p>Burger</p>
+                <span>40 item</span>
+            </div>
+        </div>
+        <div class="list-items" data-filter=".pizza">
+            <img src="~/images/pizza.png" alt="">
+            <div class="item-info">
+                <p>Pizza</p>
+                <span>28 item</span>
+            </div>
+        </div>
+        <div class="list-items" data-filter=".pasta">
+            <img src="~/images/pasta.png" alt="">
+            <div class="item-info">
+                <p>Pasta</p>
+                <span>30 item</span>
+            </div>
+        </div>
+        <div class="list-items" data-filter=".chicken">
+            <img src="~/images/chicken.png" alt="">
+            <div class="item-info">
+                <p>Chicken</p>
+                <span>25 item</span>
+            </div>
+        </div>
+        <div class="list-items" data-filter=".other">
+            <img src="~/images/dishes.png" alt="">
+            <div class="item-info">
+                <p>Others</p>
+                <span>20 item</span>
+            </div>
+        </div>
+    </div>
+ 
+    <!--Meals-->
+    <div class="container">
+        @for(int i = 0; i < Model.Count; i++)
+        {
+            <div class="dish all other" data-filter="other">
+                <div class="dish-image">
+                    <img src="@Model[i].PhotoMeal.Path" alt="@Model[i].PhotoMeal.Name">
+                    <span class="rate"><ion-icon name="star"></ion-icon>@Model[i].Rate</span>
+                </div>
+                <div class="dish-txt">
+                    <div class="dish-info">
+                        <div class="dish-fav">
+                            <h1>@Model[i].Name</h1>
+                            <p>@Model[i].Description</p>
+                        </div>
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    
+                    <div class="prices">
+                        <span class="discount">-10%</span>
+                        <span class="price">$@Model[0].Price</span>
+                    </div>
+                    <div class="admin-options">
+                        <div class="order">
+                            <a asp-controller="Cart" asp-action="AddMeal" asp-route-id="@Model[i].Id">
+                                <ion-icon name="cart-outline"></ion-icon>
+                            </a>
+                        </div>
+                        @if(User.IsInRole("aa")){
+                        <div class="delete">
+                            <a asp-controller="Meal" asp-action="DeleteMeal" asp-route-id="@Model[i].Id">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                    <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                                </svg>
+                            </a>
+                        </div>
+                        }
+                        
+                    </div>
+                </div>
+            </div> 
+        }
+ </section>       
+
+
+    <!-- Start Meze Collections -->
+    <div class="meze">
+        <h1>Select <span>Meze</span> Collections<span>.</span></h1>
+        <div class="container">
+            <div class="meze-dish">
+                <div class="meze-dish-img">
+                    <img src="~/images/meze-1.png" alt="">
+                </div>
+                <div class="meze-dish-txt">
+                    <div class="meze-info">
+                        <h1>French Fries</h1>
+                        <span class="price">$10.00</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+            <div class="meze-dish">
+                <div class="meze-dish-img">
+                    <img src="~/images/meze-2.png" alt="">
+                </div>
+                <div class="meze-dish-txt">
+                    <div class="meze-info">
+                        <h1>Onion Rings</h1>
+                        <span class="price">$9.00</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+            <div class="meze-dish">
+                <div class="meze-dish-img">
+                    <img src="~/images/meze-3.png" alt="">
+                </div>
+                <div class="meze-dish-txt">
+                    <div class="meze-info">
+                        <h1>Mozzarella Sticks</h1>
+                        <span class="price">$13.00</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+            <div class="meze-dish">
+                <div class="meze-dish-img">
+                    <img src="~/images/meze-4.png" alt="">
+                </div>
+                <div class="meze-dish-txt">
+                    <div class="meze-info">
+                        <h1>Coleslaw</h1>
+                        <span class="price">$5.00</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+            <div class="meze-dish">
+                <div class="meze-dish-img">
+                    <img src="~/images/meze-5.png" alt="">
+                </div>
+                <div class="meze-dish-txt">
+                    <div class="meze-info">
+                        <h1>Chicken Strips</h1>
+                        <span class="price">$20.00</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+            <div class="meze-dish">
+                <div class="meze-dish-img">
+                    <img src="~/images/meze-6.png" alt="">
+                </div>
+                <div class="meze-dish-txt">
+                    <div class="meze-info">
+                        <h1>hotdog</h1>
+                        <span class="price">$15.00</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+            <div class="meze-dish">
+                <div class="meze-dish-img">
+                    <img src="~/images/meze-7.png" alt="">
+                </div>
+                <div class="meze-dish-txt">
+                    <div class="meze-info">
+                        <h1>Orange Juice</h1>
+                        <span class="price">$10.00</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+            <div class="meze-dish">
+                <div class="meze-dish-img">
+                    <img src="~/images/meze-8.png" alt="">
+                </div>
+                <div class="meze-dish-txt">
+                    <div class="meze-info">
+                        <h1>Chicken Wings</h1>
+                        <span class="price">$10.00</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+            <div class="meze-dish">
+                <div class="meze-dish-img">
+                    <img src="~/images/meze-9.png" alt="">
+                </div>
+                <div class="meze-dish-txt">
+                    <div class="meze-info">
+                        <h1>Cola</h1>
+                        <span class="price">$10.00</span>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Start Testimonials -->
+<div class="testimonials" id="testimonials">
+    <h1>What our <span>Customers</span> Say ?</h1>
+    <div class="swiper-container">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide testimonial-card">
+                    <img src="~/images/testimonial-1.jpg" class="testimonial-img">
+                    <h2 class="name">Allan Doe</h2>
+                    <span class="job">Food Chef Master</span>
+                    <div class="rate">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="swiper-slide testimonial-card">
+                    <img src="~/images/testimonial-2.jpg" class="testimonial-img">
+                    <h2 class="name">Fred Mallo</h2>
+                    <span class="job">Food Chef Master</span>
+                    <div class="rate">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="swiper-slide testimonial-card">
+                    <img src="~/images/testimonial-3.jpg" class="testimonial-img">
+                    <h2 class="name">Dani Jack</h2>
+                    <span class="job">Food Chef Master</span>
+                    <div class="rate">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="swiper-slide testimonial-card">
+                    <img src="~/images/testimonial-4.jpg" class="testimonial-img">
+                    <h2 class="name">Sara Morad</h2>
+                    <span class="job">Food Chef Master</span>
+                    <div class="rate">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="swiper-slide testimonial-card">
+                    <img src="~/images/testimonial-5.jpg" class="testimonial-img">
+                    <h2 class="name">Alex Foe</h2>
+                    <span class="job">Food Chef Master</span>
+                    <div class="rate">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="swiper-slide testimonial-card">
+                    <img src="~/images/testimonial-6.jpg" class="testimonial-img">
+                    <h2 class="name">Elisa Moe</h2>
+                    <span class="job">Food Chef Master</span>
+                    <div class="rate">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-buttons">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+</div>

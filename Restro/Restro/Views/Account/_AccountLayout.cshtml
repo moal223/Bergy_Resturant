@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Betgy Restuarant Buy your favorite foods.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- title -->
+        <title>Bergy - Book Your Table</title>
+        <!-- css files -->
+        <link rel="stylesheet" href="~/css/style.css">
+        <style>
+            .container .logo {
+                color: black;
+            }
+            .group{
+                width: 100%;
+                padding: 18px 20px;
+            }
+            .login-register{
+                width: 900px;
+                padding: 10px;
+                background-color: rgba(0, 0, 0, 0.02);
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+                align-content: space-between;
+            }
+            .login-register .login,.register{
+                padding: 20px 40px;
+                background-color: white;
+                text-align: center;
+                cursor: pointer;
+            }
+            .login-register .login:hover,.register:hover{
+                background-color: #fe8d00;
+            }
+            .login-register .login:hover h2,.register:hover h2{
+                color: white;
+            }
+            .login-register .login h2,.register h2{
+                color: #888;
+            }
+            @@media (max-width: 767px){
+                .login-register{
+                    width: 750px;
+                }
+            }
+            @@media (max-width: 600px){
+                .login-register{
+                    width: 500px;
+                }
+            }
+            @@media (max-width: 500px){
+                .login-register{
+                    width: 300px;
+                    grid-template-columns: repeat(1, 1fr);
+                }
+            }
+        .danger {
+            color: var(--main-color);
+        }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+            <a href="/"><h1 class="logo"><SPan>Ber</SPan>gy.</h1></a>
+                
+            </div>
+        </div>
+        <div class="overlay"></div>
+        <section class="contact" id="contact">
+            
+            
+            @RenderBody()
+        </section>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    </body>
+</html>

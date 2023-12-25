@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Betgy Restuarant Buy your favorite foods.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>Bergy - Book Your Table</title>
+    <!-- css files -->
+    <!-- Swiper file -->
+    <link rel="stylesheet" href="~/css/swiper-bundle.min.css">
+    <!-- font-Awesome file -->
+    <link rel="stylesheet" href="~/css/all.min.css">
+    <!-- main css file -->
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="~/css/responsive.css">
+    <!-- Tab icon -->
+    <link rel="shortcut icon" href="~/images/tab-icon.png" type="image/x-icon">
+    <style>
+        .header .auth a {
+            color: black;
+        }
+        .cart {
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 4px;
+            border-radius: 6px;
+            margin-left: 5px;
+        }
+        .cart:hover{
+                background-color: #fe8d00;
+                cursor: pointer;
+        }
+        .cart-ancor {
+            color: black;
+        }
+
+        #admin, .btn-resto {
+            background-color: #fe8d00;
+            color: white;
+            padding: 10px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+            #admin:hover, .btn-resto:hover {
+                color: white;
+                background-color: black;
+        }
+        .admin-auth{
+            position: absolute;
+            top: 70px;
+            left: 900px;
+            display: flex;
+            flex-direction: column;
+            width: 320px;
+            padding: 10px;
+            background-color: #eee;
+            gap: 10px;
+            z-index: 4;
+            display: none;
+            transition: 0.4s;
+        }
+        .admin-auth.show{
+            display: flex;
+        }        .admin-auth div{
+                background-color: white;
+                padding: 10px;
+                color: #333;
+                transition: 0.3s;
+                cursor: pointer;
+        }
+        .admin-auth div:hover {
+            padding-left: 25px;
+                    color: #fe8d00;
+        }
+        .user-info{
+            display:flex;
+            align-items: center;
+        }
+        @@media(max-width: 767px){
+            .admin-auth{
+                left: 0px;
+                max-width: 100%;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Start Header -->
+    <div class="header">
+        <div class="container">
+            <h1 class="logo"><SPan>Ber</SPan>gy.</h1>
+            <ul class="links">
+                <div class="top">
+                    <h1 class="logo"><SPan>Ber</SPan>gy.</h1>
+                    <ion-icon name="close-outline" class="close-menu"></ion-icon>
+                </div>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <div class="social">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </div>
+            </ul>
+            <div class="icons">
+                <div class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+
+            @if (User.Identity.IsAuthenticated) // authentecated
+            {
+                @if (User.IsInRole("aa"))
+                {
+                    <button id="admin" class="btn-resto">Admin</button>
+                    <div class="admin-auth">
+                        <a asp-controller="Meal" asp-action="AddMeal"><div>Add Meal</div></a>
+                        <a asp-controller="Role" asp-action="AddRole"><div>Add Role</div></a>
+                        <a asp-controller="Role" asp-action="AddUserRole"><div>Add User Role</div></a>
+                    </div>
+                }
+                
+                <div class="container">
+                    <div class="user-info">
+                        <div>@User.Identity.Name</div>/ <form asp-controller="Account" asp-action="Logout" method="post">
+                            <input type="submit" value="Logout" class="btn-resto" />
+                    </form> 
+                    </div>
+                    <a class="cart-ancor" asp-controller="Cart" asp-action="Index"><div class="cart">
+                        <svg width="25px" height="20px" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                        </svg>
+                    </div></a>
+                    
+                </div>
+            }
+            else
+            {
+                <div class="auth">
+                    <a asp-controller="Account" asp-action="Login">login</a>/
+                    <a asp-controller="Account" asp-action="Register">register</a>
+                </div>
+            }
+            
+        </div>
+    </div>
+    <div class="overlay"></div>
+    <!--Main content-->
+    @RenderBody()
+
+    <!-- Start Footer -->
+    <div class="footer">
+        <div class="footer-img">
+            <img src="~/images/footer-bg.jpg" alt="">
+        </div>
+        <div class="container">
+            <div class="col">
+                <h2 class="logo"><span>Ber</span>gy.</h2>
+                <p>
+                    A good restaurant is like a vacation, it transports you, and it becomes a lot more
+                    than just about
+                    the food.
+                </p>
+                <div class="social-media">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+            <hr>
+            <div class="col">
+                <h1>Information</h1>
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Services</a>
+                <a href="#">Menu</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <hr>
+            <div class="col">
+                <h1>Help Center</h1>
+                <a href="#">Food Care</a>
+                <a href="#">Shipping</a>
+                <a href="#">Account</a>
+                <a href="#">Accessibility</a>
+                <a href="#">Privacy</a>
+            </div>
+            <hr>
+            <div class="col">
+                <h1>Subscribtion</h1>
+                <form action="#">
+                    <input type="email" placeholder="Enter Email">
+                    <button type="button">Subscribe</button>
+                </form>
+                <div class="payment">
+                    <img src="~/images/payments.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="down">
+            <div class="container">
+                <p>Copyright © 2024 Bergy. All rights reserved</p>
+            </div>
+        </div>
+    </div>
+    <!-- js files -->
+    <!-- ion-icon -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <!-- Swiper js -->
+    <script src="~/js/swiper-bundle.min.js"></script>
+    <!-- main js file -->
+    <script src="~/js/main.js"></script>
+    @* <script src="~/js/admin/adminProp.js"></script> *@
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script> 
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+     <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+        let adminBtn = document.getElementById("admin");
+        let adminAuth = document.querySelector(".admin-auth");
+
+        adminBtn.addEventListener("click", () => {
+            adminAuth.classList.toggle("show");
+        });
+    </script>
+</body>
+
+</html>

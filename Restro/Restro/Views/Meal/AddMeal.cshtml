@@ -1,0 +1,38 @@
+﻿@model MealViewModel
+@{
+    ViewData["Title"] = "AddMeal";
+    Layout = "~/Views/Account/_AccountLayout.cshtml";
+}
+
+<style>
+    .photo{
+        width: 100%;
+        color: #888;
+        padding: 10px;
+    }
+</style>
+
+<div class="container">
+    <div class="contact-form">
+        <form asp-controller="Meal" asp-action="AddMeal" method="post" autocomplete="off" enctype="multipart/form-data">
+            <div asp-validation-summary="All" class="danger"></div>
+
+            <input asp-for="Name" placeholder="Name" class="input">
+            <span asp-validation-for="Name" class="danger"></span>
+
+            <input asp-for="Description" placeholder="Description" class="input">
+            <span asp-validation-for="Description" class="danger"></span>
+
+            <input asp-for="Price" placeholder="Price" class="input">
+            <span asp-validation-for="Price" class="danger"></span>
+
+            <input asp-for="Rate" placeholder="Rate" class="input">
+            <span asp-validation-for="Rate" class="danger"></span>
+
+            <input class="photo" asp-for="Photo" type="file"/>
+
+            <input type="submit" value="Add">
+        </form>
+    </div>
+</div>
+

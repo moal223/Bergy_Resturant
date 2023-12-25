@@ -1,0 +1,42 @@
+﻿@model RegisterUserViewModel
+@{
+    Layout = "~/Views/Account/_AccountLayout.cshtml";
+}
+
+<style>
+    .danger {
+        color: var(--main-color);
+    }
+</style>
+<div class="container">
+    <div class="login-register">
+        <div class="login">
+            <a asp-controller="Account" asp-action="Login"><h2>Login</h2></a>
+        </div>
+        <div class="register">
+            <a asp-controller="Account" asp-action="Register"><h2>Register</h2></a>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="contact-form">
+        <form asp-controller="Account" asp-action="Register" method="post" autocomplete="off">
+            <div asp-validation-summary="All" class="danger"></div>
+
+            <input asp-for="UserName" placeholder="Username" class="input">
+            <span asp-validation-for="UserName" class="danger"></span>
+
+            <input asp-for="Email" placeholder="Email" class="input" >
+            <span asp-validation-for="Email" class="danger"></span>
+
+            <input asp-for="Password" placeholder="Password" class="input" >
+            <span asp-validation-for="Password" class="danger"></span>
+
+            <input asp-for="ConfirmPassword" placeholder="Confirm Password" class="input">
+            <span asp-validation-for="ConfirmPassword" class="danger"></span>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</div>
+

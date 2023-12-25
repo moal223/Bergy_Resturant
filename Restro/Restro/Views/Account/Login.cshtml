@@ -1,0 +1,33 @@
+﻿@model LoginViewModel
+@{
+    Layout = "_AccountLayout";
+}
+
+
+<div class="container">
+    <div class="login-register">
+        <div class="login">
+            <a asp-controller="Account" asp-action="Login"><h2>Login</h2></a>
+        </div>
+        <div class="register">
+            <a asp-controller="Account" asp-action="Register"><h2>Register</h2></a>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="contact-form">
+        <form asp-controller="Account" asp-action="Login" method="post" autocomplete="off">
+            <div asp-validation-summary="All" class="danger"></div>
+
+            <input asp-for="Email" placeholder="Username or email" class="input">
+            <span asp-validation-for="Email" class="danger"></span>
+            <input asp-for="Password" placeholder="Password" class="input">
+            <span asp-validation-for="Password" class="danger"></span>
+            <div class="group">
+                <input asp-for="RememberMe" type="checkbox" />
+                <label for="RememberMe">Remember me</label>
+            </div>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</div>
